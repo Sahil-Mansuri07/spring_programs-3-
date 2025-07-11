@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:context="http://www.springframework.org/schema/context"
+    xmlns:p="http://www.springframework.org/schema/p"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+<bean class="My_Spring2.My_Spring2.Employee" name="emp1">
+    <property name="name" value="Ramlal" />
+    
+    <property name="skills">
+    <list>
+    <value>Manager</value>
+    <value>HR</value>
+    <value>Civil Engineer</value>
+    </list>
+    </property>
+    
+    <property name="mobile">
+    <set>
+    <value>9865254596</value>
+    <value>6536458586</value>
+    <value>8865253698</value>
+    </set>
+    </property>
+    
+    <property name="project">
+    <map>
+    <entry key="project1001" value="Hotel Management"></entry>
+    <entry key="project1002" value="JobSeeker"></entry>
+    <entry key="project1003" value="National Highway 44"></entry>
+    </map>
+    </property>
+    
+    
+    </bean>
+    </beans>
